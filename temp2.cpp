@@ -13,18 +13,6 @@
 #define endline cout<<"\n";
 #define T(T) ll t; cin>>t; while(t--)
 using namespace std;
-ll func(vector <ll> arr, ll x)
-{
-    ll i = 0;
-    for(i = 0; i<len(arr); i++)
-    {
-        if(arr[i] >= x)
-        {
-            return i;
-        }
-    }
-    return i-1;
-}
 int main() 
 {
     ravi parmar2002
